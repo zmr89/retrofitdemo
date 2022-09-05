@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitInstance {
     private static Retrofit retrofit = null;
 
-    private static final String BASE_URL = "http://www.groupkt.com/";
+    private static String BASE_URL = "http://www.groupkt.com/";
 
     public static CountryService getService(){
         if (retrofit != null){
